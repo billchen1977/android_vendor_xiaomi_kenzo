@@ -17,7 +17,8 @@
 PRODUCT_PACKAGES += \
     TimeService \
     CABLService \
-    SVIService
+    SVIService \
+    QPerformance
 
 PRODUCT_PACKAGES += \
     izat.xt.srv \
