@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/propri
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/etc/dpm,system/etc/dpm)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/etc/firmware,system/etc/firmware)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/etc/firmware,system/vendor/firmware)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/etc/permissions,system/vendor/etc/permissions)
 
